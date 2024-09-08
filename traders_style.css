@@ -1,0 +1,166 @@
+/* Styling for the main content */
+body {
+    font-family: 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    background-size: cover;
+    background-image: url('bg.jpg');
+    margin-left: 1px;
+    margin-right: 1px;
+    font-size: 25px;
+    text-align: justify;
+    scroll-behavior: smooth;
+}
+
+/* Styling for the header */
+
+header {
+    background-color: transparent;
+    color: rgb(206, 197, 197);
+    text-align: center;
+    padding: 5px;
+    position: relative;
+    font-family: 'Candara',sans-serif;
+    border-bottom: 10px solid white;
+    border-style:double;
+    border-color: #083d1c;
+}
+
+/* Heading styling */
+h1 {
+    margin: 0;
+    font-size: 45px;
+    
+}
+
+h2 {
+    color:rgb(206, 197, 197);
+    margin: 0;
+    font-size: 36px;
+    
+    
+}
+
+/* Dropdown menu styling */
+.dropdown {
+    position: absolute;
+    top: 5px;
+    right: 20px; /* Shift the button to the right */
+}
+
+.menu-btn {
+    background-color: transparent;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    font-family: Arial;
+    position: absolute;
+    background-color: #083d1c;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    min-width: 160px;
+    z-index: 1;
+    right: 0; /* Ensure dropdown opens aligned to the button */
+    border-radius: 12px;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: black;
+    border-radius: 12px;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.image {
+    border-radius: 50%;
+}
+
+main {
+    padding: 20px;
+    text-align: justify;
+    color: rgb(141, 211, 0);
+}
+
+.image-row {
+    display: flex;
+    justify-content: space-between; /* Space between the images */
+    padding: 20px;
+}
+
+.image-container {
+    text-align: center;
+    width: 30%;
+}
+
+.image-container img {
+    width: 100%; /* Each image takes 100% of its container */
+    border-radius: 15px; /* Rounded corners */
+    transition: transform 0.3s ease; /* Add animation on hover */
+}
+
+.image-container img:hover {
+    transform: scale(1.05); /* Slightly enlarge image on hover */
+}
+
+.image-container p {
+    margin-top: 10px;
+    font-size: 25px;
+    color: yellowgreen;
+}
+
+.image-row2 {
+    display: flex;
+    justify-content: space-around; /* Space between the images */
+    padding: 20px;
+}
+
+#mission-section h2 {
+    margin-bottom: 20px;
+}
+
+#mission-section ul {
+    list-style-type: disc;
+    padding-left: 40px;
+    text-align: justify;
+}
+
+#mission-section ul li {
+    margin-bottom: 10px;
+    
+}
+
+#events-section h2 {
+    margin-bottom: 20px;
+}
+
+#events-section ul {
+    list-style-type: disc;
+    padding-left: 40px;
+    text-align: justify;
+}
+
+#events-section ul li {
+    margin-bottom: 10px;
+    
+}
+
+/* Styling for the footer */
+
+
